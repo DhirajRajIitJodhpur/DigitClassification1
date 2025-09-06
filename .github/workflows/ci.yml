@@ -25,3 +25,6 @@ jobs:
       - name: Run digit classification script
         run: python plot_digits_classification.py
 
+      - name: Run hyperparameter search
+        run: python hyperparam_search.py
+
